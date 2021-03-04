@@ -7,10 +7,10 @@
     "Display the completer themes": [
         ""
     ],
-    "Code Highlights": [
+    "schema\u0004Code Highlights": [
         "Surlignage du Code"
     ],
-    "LSP highlights of the variable under the cursor settings.": [
+    "schema\u0004LSP highlights of the variable under the cursor settings.": [
         "LSP surlignages de la variable sous les paramètres du curseur."
     ]
 }
