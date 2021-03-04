@@ -1,0 +1,16 @@
+{
+    "": {
+        "domain": "jupyterlab-lsp",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);"
+    },
+    "Display the completer themes": [
+        ""
+    ],
+    "Code Highlights": [
+        "Surlignage du Code"
+    ],
+    "LSP highlights of the variable under the cursor settings.": [
+        "LSP surlignages de la variable sous les paramètres du curseur."
+    ]
+}
