@@ -16,6 +16,63 @@
     " Help ": [
         " Aide "
     ],
+    "Cannot open a folder here": [
+        "Impossible d'ouvrir un dossier ici"
+    ],
+    "Add": [
+        "Ajouter"
+    ],
+    "Stage or track the changes to selected file": [
+        "Indexer ou suivre les modifications du fichier sélectionné"
+    ],
+    "Stage or track the changes to selected files": [
+        "Indexer ou suivre les modifications apportées aux fichiers sélectionnés"
+    ],
+    "Stage the changes of selected files": [
+        "Indexer les modifications apportées aux fichiers sélectionnés"
+    ],
+    "Start tracking selected files": [
+        "Commencer à suivre les fichiers sélectionnés"
+    ],
+    "Unstage the changes of selected files": [
+        "Désindexer les modifications apportées aux fichiers sélectionnés"
+    ],
+    "Delete these files": [
+        "Supprimer ces fichiers"
+    ],
+    "Delete Files": [
+        "Supprimer ces Fichiers"
+    ],
+    "Are you sure you want to permanently delete %1? This action cannot be undone.": [
+        "Êtes-vous sûr de vouloir supprimer définitivement %1? cette action n'est pas réversible."
+    ],
+    "Discard recent changes of selected files": [
+        "Annuler les modifications récentes apportées aux fichiers sélectionnés"
+    ],
+    "Are you sure you want to permanently discard changes to %1? This action cannot be undone.": [
+        "Êtes-vous sûr de vouloir supprimer les modifications apportées à %1 de manière définitive? cette action n'est pas réversible."
+    ],
+    "Discard changes for %1 failed.": [
+        "La suppression des modifications pour %1 a échoué."
+    ],
+    "Ignore these files (add to .gitignore)": [
+        "Ignorer ces fichiers (ajouter à .gitignore)"
+    ],
+    "Ignore %1 %2 (add to .gitignore)": [
+        "Ignorer %2 %1 (ajouter à .gitignore)"
+    ],
+    "extensions": [
+        "les extensions"
+    ],
+    "extension": [
+        "l'extension"
+    ],
+    "Ignore these files extension (add to .gitignore)": [
+        "Ignorer ces extensions de fichier (ajouter à .gitignore)"
+    ],
+    "No actions available": [
+        "Aucune action disponible"
+    ],
     "# Deletions": [
         "# Suppressions"
     ],
@@ -59,7 +116,7 @@
         "Êtes-vous sûr de vouloir supprimer définitivement les modifications apportées à "
     ],
     "Are you sure you want to permanently discard changes to all files? This action cannot be undone.": [
-        "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? Cette action ne peut pas être annulée."
+        "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? cette action n'est pas réversible."
     ],
     "Branch created.": [
         "La branche a été créée."
@@ -213,6 +270,9 @@
     ],
     "Diff selected file": [
         "Voir le diff du fichier sélectionné"
+    ],
+    "Diff selected files": [
+        "Voir les différences (diff) des fichiers sélectionnés"
     ],
     "Diff this file": [
         "Diff ce fichier"
@@ -447,6 +507,9 @@
     ],
     "Open selected file": [
         "ouvrir le fichier sélectionné"
+    ],
+    "Open selected files": [
+        "ouvrir les fichiers sélectionnés"
     ],
     "Open the FileBrowser": [
         "Ouvrir le FileBrowser"
