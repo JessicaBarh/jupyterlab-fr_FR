@@ -7,6 +7,93 @@
     "Display the completer themes": [
         ""
     ],
+    "initialized": [
+        "Initialisé"
+    ],
+    "connected": [
+        "connecté"
+    ],
+    "not connected": [
+        "pas connecté"
+    ],
+    "LSP servers": [
+        "serveurs LSP"
+    ],
+    "Available": [
+        "Disponible"
+    ],
+    "Running": [
+        "En cours d'exécution"
+    ],
+    "Missing": [
+        "Manquant"
+    ],
+    "Documentation:": [
+        "Documentation"
+    ],
+    "Language Servers": [
+        "Serveur de Langue"
+    ],
+    "LSP status": [
+        "état du LSP"
+    ],
+    "LSP Code Intelligence": [
+        ""
+    ],
+    "LSP server extension not found": [
+        "Extension de serveur LSP introuvable"
+    ],
+    "Server extension missing": [
+        "Extension de serveur manquante"
+    ],
+    "Waiting...": [
+        "Chargement en cours..."
+    ],
+    "Fully initialized": [
+        "Entièrement Initialisé"
+    ],
+    "Initialized (additional servers needed)": [
+        "Initialisé (serveurs supplémentaires nécessaires)"
+    ],
+    "Initializing...": [
+        "Initialisation..."
+    ],
+    "Connecting...": [
+        "Connexion en cours..."
+    ],
+    "not initialized": [
+        "pas initialisé"
+    ],
+    "Waiting for documents initialization...": [
+        ""
+    ],
+    "Fully connected & initialized (%1 virtual documents)": [
+        ""
+    ],
+    "Fully connected & initialized (%1 virtual document)": [
+        ""
+    ],
+    "Fully connected, but %1/%2 virtual documents stuck uninitialized: %3": [
+        ""
+    ],
+    "Fully connected, but %1/%2 virtual document stuck uninitialized: %3": [
+        ""
+    ],
+    "%1/%2 virtual document connected (%3 connections; waiting for: %4)": [
+        ""
+    ],
+    "%1/%2 virtual documents connected (%3 connections; waiting for: %4)": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
+    "": [
+        ""
+    ],
     "schema\u0004Code Highlights": [
         "Surlignage du Code"
     ],
