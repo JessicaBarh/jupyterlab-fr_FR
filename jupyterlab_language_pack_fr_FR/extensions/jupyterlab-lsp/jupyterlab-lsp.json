@@ -5,7 +5,7 @@
         "plural_forms": "nplurals=2; plural=(n > 1);"
     },
     "Display the completer themes": [
-        ""
+        "Afficher les thèmes de complétion"
     ],
     "initialized": [
         "Initialisé"
@@ -14,7 +14,7 @@
         "connecté"
     ],
     "not connected": [
-        "pas connecté"
+        "non connecté"
     ],
     "LSP servers": [
         "serveurs LSP"
@@ -38,7 +38,7 @@
         "état du LSP"
     ],
     "LSP Code Intelligence": [
-        ""
+        "LSP Intelligence du Code"
     ],
     "LSP server extension not found": [
         "Extension de serveur LSP introuvable"
@@ -62,33 +62,186 @@
         "Connexion en cours..."
     ],
     "not initialized": [
-        "pas initialisé"
+        "non initialisé"
     ],
     "Waiting for documents initialization...": [
-        ""
+        "En attente de l'initialisation des documents..."
     ],
     "Fully connected & initialized (%1 virtual documents)": [
-        ""
+        "Entièrement connecté et initialisé (%1 documents virtuels)"
     ],
     "Fully connected & initialized (%1 virtual document)": [
-        ""
+        "Entièrement connecté et initialisé (% 1 document virtuel)"
     ],
     "Fully connected, but %1/%2 virtual documents stuck uninitialized: %3": [
-        ""
+        "Entièrement connecté, mais %1/%2 documents virtuels sont bloqués et non initialisés: %3"
     ],
     "Fully connected, but %1/%2 virtual document stuck uninitialized: %3": [
-        ""
+        "Entièrement connecté, mais %1/%2 document virtuel est bloqué et non initialisé: %3"
     ],
     "%1/%2 virtual document connected (%3 connections; waiting for: %4)": [
-        ""
+        "%1/%2 document virtuel connecté (%3 connexions; en attente de: %4"
     ],
     "%1/%2 virtual documents connected (%3 connections; waiting for: %4)": [
+        "%1/%2 documents virtuels connectés (%3 connexions; en attente de: %4"
+    ],
+    "LSP Rename": [
+        "LSP Renommer"
+    ],
+    "Rename failed: %1": [
+        "changement de nom a échoué: %1"
+    ],
+    "Rename to": [
+        "Renommer à"
+    ],
+    "Renaming %1 to %2...": [
+        "Renommer %1 à %2..."
+    ],
+    "Rename symbol": [
+        "Renommer ce symbol"
+    ],
+    "%1 to %2": [
+        "%1 à %2"
+    ],
+    "Could not rename %1 - consult the language server documentation": [
+        "Impossible de renommer %1 - consultez la documentation du serveur de langue"
+    ],
+    "Renamed %1 in %2 place": [
+        "Renommé %1 dans %2 endroit"
+    ],
+    "Renamed %1 in %2 places": [
+        "Renommé %1 en %2 endroits"
+    ],
+    "Renamed %1 in %2 cell": [
+        "Renommé %1 dans %2 cellule"
+    ],
+    "Renamed %1 in %2 cells": [
+        "Renommé %1 en %2 cellules"
+    ],
+    "Renamed %1": [
+        "Renommé %1"
+    ],
+    " with errors: %1": [
+        "avec des erreurs: %1"
+    ],
+    "%1 in cell %2 at line %3": [
+        "%1 dans la cellule %2 de la ligne %3"
+    ],
+    "%1 at line %2": [
+        "%1 dans la ligne %2"
+    ],
+    "Syntax error(s) prevent rename: %1": [
+        "Erreur(s) de syntaxe empêchent le changement de nom: %1"
+    ],
+    "Cancel": [
+        "Annuler"
+    ],
+    "Rename": [
+        "Renommer"
+    ],
+    "LSP Completer Themes": [
+        "LSP Thèmes de la Saisie Semi-Automatique"
+    ],
+    "Edit external file?": [
+        "Modifier le fichier externe?"
+    ],
+    "This file is located outside of the root of the JupyterLab start directory. Do you really wish to edit it?": [
+        "Ce fichier se trouve en dehors du répertoire racine de JupyterLab. êtes-vous sûr de vouloir le modifier?"
+    ],
+    "Edit anyway": [
+        "Modifiez-le quand même"
+    ],
+    "Show diagnostics panel": [
+        "Afficher le panneau de diagnostic"
+    ],
+    " (current)": [
+        " (courant)"
+    ],
+    "Licence: ": [
+        "Licence: "
+    ],
+    "Includes dedicated dark mode icons set": [
+        "Comprend un ensemble d'icônes de mode sombre"
+    ],
+    "OK": [
+        "OK"
+    ],
+    "Highlight references": [
+        "Mettre en surbrillance les références"
+    ],
+    "Highlight type definition": [
+        "Mettre en surbrillance la définition de type"
+    ],
+    "LSP Highlights": [
+        "LSP Surbrillance"
+    ],
+    "LSP Hover tooltip": [
+        "LSP Survoler une info-bulle"
+    ],
+    "No jump targets found": [
         ""
     ],
-    "schema\u0004Code Highlights": [
-        "Surlignage du Code"
+    "Jump to definition": [
+        "Sauter à la définition"
     ],
-    "schema\u0004LSP highlights of the variable under the cursor settings.": [
-        "LSP surlignages de la variable sous les paramètres du curseur."
+    "Jump back": [
+        "Revenir en arrière"
+    ],
+    "Syntax highlighting": [
+        "Surbrillance du syntaxe"
+    ],
+    "Diagnostics Panel": [
+        "Panneau Diagnostic"
+    ],
+    "Panel columns": [
+        "Colonnes du panneau"
+    ],
+    "Ignore diagnostics like this": [
+        "Ignorer les diagnostics comme celui-ci"
+    ],
+    "Ignore diagnostics with \"%1\" code": [
+        "Ignorer les diagnostics avec le code \"%1\""
+    ],
+    "Ignore diagnostics with \"%1\" message": [
+        "Ignorer les diagnostics avec le message \"%1\""
+    ],
+    "Jump to location": [
+        "Naviguer vers l'emplacement"
+    ],
+    "Successfully copied \"%1\" to clipboard": [
+        "\"%1\" copié avec succès dans le presse-papiers"
+    ],
+    "Your browser protects clipboard from write operations; please copy the message manually": [
+        "Votre navigateur protège le presse-papiers des opérations d'écriture; veuillez copier le message manuellement"
+    ],
+    "Copy diagnostics' message": [
+        "Copier le message de diagnostic"
+    ],
+    "LSP Diagnostics": [
+        "LSP Diagnostics"
+    ],
+    "No issues detected, great job!": [
+        "Aucun problème détecté, bon travail!"
+    ],
+    "Virtual Document": [
+        "Document Virtuel"
+    ],
+    "Message": [
+        "Message"
+    ],
+    "Code": [
+        "Code"
+    ],
+    "Severity": [
+        "Niveaux de Gravité"
+    ],
+    "Source": [
+        "Source"
+    ],
+    "Cell": [
+        "Cellule"
+    ],
+    "Line:Ch": [
+        "Ligne:Ch"
     ]
 }
