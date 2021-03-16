@@ -82,6 +82,30 @@
     "# Insertions": [
         "# Insertions"
     ],
+    "%1 ● Added": [
+        "%1 ● Ajouté"
+    ],
+    "%1 ● Copied": [
+        "%1 ● Copié"
+    ],
+    "%1 ● Deleted": [
+        "%1 ● Supprimé"
+    ],
+    "%1 ● Ignored": [
+        "%1 ● Ignoré"
+    ],
+    "%1 ● Modified": [
+        "%1 ● Modifié"
+    ],
+    "%1 ● Renamed": [
+        "%1 ● Renommé"
+    ],
+    "%1 ● Untracked": [
+        "%1 ● Non suivi"
+    ],
+    "%1 ● Updated": [
+        "%1 ● Mis à jour"
+    ],
     "(missing message)": [
         "(message manquant)"
     ],
@@ -93,9 +117,6 @@
     ],
     "Add Remote Repository": [
         "Ajouter un Dépôt Distant"
-    ],
-    "Added": [
-        "Ajouté"
     ],
     "adding files...": [
         "ajoutant les fichiers..."
@@ -116,7 +137,7 @@
         "Êtes-vous sûr de vouloir supprimer définitivement les modifications apportées à "
     ],
     "Are you sure you want to permanently discard changes to all files? This action cannot be undone.": [
-        "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? cette action n'est pas réversible."
+        "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? Cette action n'est pas réversible."
     ],
     "Branch created.": [
         "La branche a été créée."
@@ -179,7 +200,10 @@
         "Fermez cette boîte de dialogue sans créer de nouvelle branche"
     ],
     "Commit": [
-        "Commit"
+        "Valider"
+    ],
+    "Commit from the Commit Box": [
+        "Valider depuis la boîte de validation"
     ],
     "Committed changes.": [
         "Changements commits."
@@ -189,9 +213,6 @@
     ],
     "Committing changes...": [
         "Commit des modifications..."
-    ],
-    "Copied": [
-        "Copié"
     ],
     "Create a Branch": [
         "Créer une Branche"
@@ -244,9 +265,6 @@
     "Delete this file": [
         "Supprimer ce fichier"
     ],
-    "Deleted": [
-        "Supprimé"
-    ],
     "Deleting %1 failed.": [
         "La suppression de %1 a échoué."
     ],
@@ -269,10 +287,10 @@
         "Diff n'est pas pris en charge"
     ],
     "Diff selected file": [
-        "Voir le diff du fichier sélectionné"
+        "Afficher les différences du fichier sélectionné"
     ],
     "Diff selected files": [
-        "Voir les différences (diff) des fichiers sélectionnés"
+        "Afficher les différences des fichiers sélectionnés"
     ],
     "Diff this file": [
         "Diff ce fichier"
@@ -397,6 +415,9 @@
     "Failed to set your identity. ": [
         "Échoué à définir votre identité. "
     ],
+    "Failed to set your identity. %1": [
+        "Échec de la définition de votre identité. %1"
+    ],
     "Failed to switch branch.": [
         "Échec du changement de branche."
     ],
@@ -474,9 +495,6 @@
     ],
     "Manage branches and tags": [
         "Gérer les branches et étiquettes"
-    ],
-    "Modified": [
-        "Modifié"
     ],
     "Name": [
         "Nom"
@@ -571,9 +589,6 @@
     "Remote Git repository URL": [
         "URL du dépôt Git distant"
     ],
-    "Renamed": [
-        "Renommé"
-    ],
     "Reset Changes": [
         "Réinitialiser les modifications"
     ],
@@ -612,9 +627,6 @@
     ],
     "schema\u0004If true, when fetching and integrating changes from a remote repository, a conflicting merge is canceled and the working tree left untouched.": [
         "Si vrai, lors de la récupération et de l'intégration des modifications depuis un référentiel distant, une fusion en conflit est annulée et l'arborescence de travail reste intacte."
-    ],
-    "schema\u0004jupyterlab-git settings.": [
-        "paramètres jupyterlab-git."
     ],
     "schema\u0004Number of (most recent) commits shown in the history log": [
         "Nombre de commits (plus récents) affichés dans l'historique"
@@ -663,6 +675,9 @@
     ],
     "Submit changes": [
         "Soumettre vos changements"
+    ],
+    "Submit the commit using the summary and description from commit box": [
+        "Soumettez le commit en utilisant le résumé et la description de la boîte de validation"
     ],
     "Successfully cloned": [
         "Clonage a réussi"
@@ -765,9 +780,6 @@
     ],
     "Untracked": [
         "Non suivi(s)"
-    ],
-    "Updated": [
-        "Mise à jour"
     ],
     "View branches": [
         "Voir les branches"
