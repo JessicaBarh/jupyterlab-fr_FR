@@ -16,6 +16,63 @@
     " Help ": [
         " Aide "
     ],
+    "Cannot open a folder here": [
+        "Impossible d'ouvrir un dossier ici"
+    ],
+    "Add": [
+        "Ajouter"
+    ],
+    "Stage or track the changes to selected file": [
+        "Indexer ou suivre les modifications du fichier sélectionné"
+    ],
+    "Stage or track the changes to selected files": [
+        "Indexer ou suivre les modifications apportées aux fichiers sélectionnés"
+    ],
+    "Stage the changes of selected files": [
+        "Indexer les modifications apportées aux fichiers sélectionnés"
+    ],
+    "Start tracking selected files": [
+        "Commencer à suivre les fichiers sélectionnés"
+    ],
+    "Unstage the changes of selected files": [
+        "Désindexer les modifications apportées aux fichiers sélectionnés"
+    ],
+    "Delete these files": [
+        "Supprimer ces fichiers"
+    ],
+    "Delete Files": [
+        "Supprimer ces Fichiers"
+    ],
+    "Are you sure you want to permanently delete %1? This action cannot be undone.": [
+        "Êtes-vous sûr de vouloir supprimer définitivement %1? cette action n'est pas réversible."
+    ],
+    "Discard recent changes of selected files": [
+        "Annuler les modifications récentes apportées aux fichiers sélectionnés"
+    ],
+    "Are you sure you want to permanently discard changes to %1? This action cannot be undone.": [
+        "Êtes-vous sûr de vouloir supprimer les modifications apportées à %1 de manière définitive? cette action n'est pas réversible."
+    ],
+    "Discard changes for %1 failed.": [
+        "La suppression des modifications pour %1 a échoué."
+    ],
+    "Ignore these files (add to .gitignore)": [
+        "Ignorer ces fichiers (ajouter à .gitignore)"
+    ],
+    "Ignore %1 %2 (add to .gitignore)": [
+        "Ignorer %2 %1 (ajouter à .gitignore)"
+    ],
+    "extensions": [
+        "les extensions"
+    ],
+    "extension": [
+        "l'extension"
+    ],
+    "Ignore these files extension (add to .gitignore)": [
+        "Ignorer ces extensions de fichier (ajouter à .gitignore)"
+    ],
+    "No actions available": [
+        "Aucune action disponible"
+    ],
     "# Deletions": [
         "# Suppressions"
     ],
@@ -24,6 +81,30 @@
     ],
     "# Insertions": [
         "# Insertions"
+    ],
+    "%1 ● Added": [
+        "%1 ● Ajouté"
+    ],
+    "%1 ● Copied": [
+        "%1 ● Copié"
+    ],
+    "%1 ● Deleted": [
+        "%1 ● Supprimé"
+    ],
+    "%1 ● Ignored": [
+        "%1 ● Ignoré"
+    ],
+    "%1 ● Modified": [
+        "%1 ● Modifié"
+    ],
+    "%1 ● Renamed": [
+        "%1 ● Renommé"
+    ],
+    "%1 ● Untracked": [
+        "%1 ● Non suivi"
+    ],
+    "%1 ● Updated": [
+        "%1 ● Mis à jour"
     ],
     "(missing message)": [
         "(message manquant)"
@@ -36,9 +117,6 @@
     ],
     "Add Remote Repository": [
         "Ajouter un Dépôt Distant"
-    ],
-    "Added": [
-        "Ajouté"
     ],
     "adding files...": [
         "ajoutant les fichiers..."
@@ -59,7 +137,7 @@
         "Êtes-vous sûr de vouloir supprimer définitivement les modifications apportées à "
     ],
     "Are you sure you want to permanently discard changes to all files? This action cannot be undone.": [
-        "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? Cette action ne peut pas être annulée."
+        "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? Cette action n'est pas réversible."
     ],
     "Branch created.": [
         "La branche a été créée."
@@ -122,7 +200,10 @@
         "Fermez cette boîte de dialogue sans créer de nouvelle branche"
     ],
     "Commit": [
-        "Commit"
+        "Valider"
+    ],
+    "Commit from the Commit Box": [
+        "Valider depuis la boîte de validation"
     ],
     "Committed changes.": [
         "Changements commits."
@@ -132,9 +213,6 @@
     ],
     "Committing changes...": [
         "Commit des modifications..."
-    ],
-    "Copied": [
-        "Copié"
     ],
     "Create a Branch": [
         "Créer une Branche"
@@ -187,9 +265,6 @@
     "Delete this file": [
         "Supprimer ce fichier"
     ],
-    "Deleted": [
-        "Supprimé"
-    ],
     "Deleting %1 failed.": [
         "La suppression de %1 a échoué."
     ],
@@ -212,7 +287,10 @@
         "Diff n'est pas pris en charge"
     ],
     "Diff selected file": [
-        "Voir le diff du fichier sélectionné"
+        "Afficher les différences du fichier sélectionné"
+    ],
+    "Diff selected files": [
+        "Afficher les différences des fichiers sélectionnés"
     ],
     "Diff this file": [
         "Diff ce fichier"
@@ -337,6 +415,9 @@
     "Failed to set your identity. ": [
         "Échoué à définir votre identité. "
     ],
+    "Failed to set your identity. %1": [
+        "Échec de la définition de votre identité. %1"
+    ],
     "Failed to switch branch.": [
         "Échec du changement de branche."
     ],
@@ -415,9 +496,6 @@
     "Manage branches and tags": [
         "Gérer les branches et étiquettes"
     ],
-    "Modified": [
-        "Modifié"
-    ],
     "Name": [
         "Nom"
     ],
@@ -447,6 +525,9 @@
     ],
     "Open selected file": [
         "ouvrir le fichier sélectionné"
+    ],
+    "Open selected files": [
+        "ouvrir les fichiers sélectionnés"
     ],
     "Open the FileBrowser": [
         "Ouvrir le FileBrowser"
@@ -507,9 +588,6 @@
     ],
     "Remote Git repository URL": [
         "URL du dépôt Git distant"
-    ],
-    "Renamed": [
-        "Renommé"
     ],
     "Reset Changes": [
         "Réinitialiser les modifications"
@@ -597,6 +675,9 @@
     ],
     "Submit changes": [
         "Soumettre vos changements"
+    ],
+    "Submit the commit using the summary and description from commit box": [
+        "Soumettez le commit en utilisant le résumé et la description de la boîte de validation"
     ],
     "Successfully cloned": [
         "Clonage a réussi"
@@ -699,9 +780,6 @@
     ],
     "Untracked": [
         "Non suivi(s)"
-    ],
-    "Updated": [
-        "Mise à jour"
     ],
     "View branches": [
         "Voir les branches"
