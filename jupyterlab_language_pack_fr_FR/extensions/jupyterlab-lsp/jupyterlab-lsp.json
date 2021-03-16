@@ -4,80 +4,20 @@
         "language": "fr-FR",
         "plural_forms": "nplurals=2; plural=(n > 1);"
     },
-    "Display the completer themes": [
-        "Afficher les thèmes de complétion"
+    " (current)": [
+        " (courant)"
     ],
-    "initialized": [
-        "Initialisé"
+    " with errors: %1": [
+        "avec des erreurs: %1"
     ],
-    "connected": [
-        "connecté"
+    "%1 at line %2": [
+        "%1 dans la ligne %2"
     ],
-    "not connected": [
-        "non connecté"
+    "%1 in cell %2 at line %3": [
+        "%1 dans la cellule %2 de la ligne %3"
     ],
-    "LSP servers": [
-        "serveurs LSP"
-    ],
-    "Available": [
-        "Disponible"
-    ],
-    "Running": [
-        "En cours d'exécution"
-    ],
-    "Missing": [
-        "Manquant"
-    ],
-    "Documentation:": [
-        "Documentation"
-    ],
-    "Language Servers": [
-        "Serveur de Langue"
-    ],
-    "LSP status": [
-        "état du LSP"
-    ],
-    "LSP Code Intelligence": [
-        "LSP Intelligence du Code"
-    ],
-    "LSP server extension not found": [
-        "Extension de serveur LSP introuvable"
-    ],
-    "Server extension missing": [
-        "Extension de serveur manquante"
-    ],
-    "Waiting...": [
-        "Chargement en cours..."
-    ],
-    "Fully initialized": [
-        "Entièrement Initialisé"
-    ],
-    "Initialized (additional servers needed)": [
-        "Initialisé (serveurs supplémentaires nécessaires)"
-    ],
-    "Initializing...": [
-        "Initialisation..."
-    ],
-    "Connecting...": [
-        "Connexion en cours..."
-    ],
-    "not initialized": [
-        "non initialisé"
-    ],
-    "Waiting for documents initialization...": [
-        "En attente de l'initialisation des documents..."
-    ],
-    "Fully connected & initialized (%1 virtual documents)": [
-        "Entièrement connecté et initialisé (%1 documents virtuels)"
-    ],
-    "Fully connected & initialized (%1 virtual document)": [
-        "Entièrement connecté et initialisé (% 1 document virtuel)"
-    ],
-    "Fully connected, but %1/%2 virtual documents stuck uninitialized: %3": [
-        "Entièrement connecté, mais %1/%2 documents virtuels sont bloqués et non initialisés: %3"
-    ],
-    "Fully connected, but %1/%2 virtual document stuck uninitialized: %3": [
-        "Entièrement connecté, mais %1/%2 document virtuel est bloqué et non initialisé: %3"
+    "%1 to %2": [
+        "%1 à %2"
     ],
     "%1/%2 virtual document connected (%3 connections; waiting for: %4)": [
         "%1/%2 document virtuel connecté (%3 connexions; en attente de: %4"
@@ -85,116 +25,65 @@
     "%1/%2 virtual documents connected (%3 connections; waiting for: %4)": [
         "%1/%2 documents virtuels connectés (%3 connexions; en attente de: %4"
     ],
-    "LSP Rename": [
-        "LSP Renommer"
-    ],
-    "Rename failed: %1": [
-        "changement de nom a échoué: %1"
-    ],
-    "Rename to": [
-        "Renommer à"
-    ],
-    "Renaming %1 to %2...": [
-        "Renommer %1 à %2..."
-    ],
-    "Rename symbol": [
-        "Renommer ce symbol"
-    ],
-    "%1 to %2": [
-        "%1 à %2"
-    ],
-    "Could not rename %1 - consult the language server documentation": [
-        "Impossible de renommer %1 - consultez la documentation du serveur de langue"
-    ],
-    "Renamed %1 in %2 place": [
-        "Renommé %1 dans %2 endroit"
-    ],
-    "Renamed %1 in %2 places": [
-        "Renommé %1 en %2 endroits"
-    ],
-    "Renamed %1 in %2 cell": [
-        "Renommé %1 dans %2 cellule"
-    ],
-    "Renamed %1 in %2 cells": [
-        "Renommé %1 en %2 cellules"
-    ],
-    "Renamed %1": [
-        "Renommé %1"
-    ],
-    " with errors: %1": [
-        "avec des erreurs: %1"
-    ],
-    "%1 in cell %2 at line %3": [
-        "%1 dans la cellule %2 de la ligne %3"
-    ],
-    "%1 at line %2": [
-        "%1 dans la ligne %2"
-    ],
-    "Syntax error(s) prevent rename: %1": [
-        "Erreur(s) de syntaxe empêchent le changement de nom: %1"
+    "Available": [
+        "Disponible"
     ],
     "Cancel": [
         "Annuler"
     ],
-    "Rename": [
-        "Renommer"
+    "Cell": [
+        "Cellule"
     ],
-    "LSP Completer Themes": [
-        "LSP Thèmes de la Saisie Semi-Automatique"
+    "Code": [
+        "Code"
     ],
-    "Edit external file?": [
-        "Modifier le fichier externe?"
+    "connected": [
+        "connecté"
     ],
-    "This file is located outside of the root of the JupyterLab start directory. Do you really wish to edit it?": [
-        "Ce fichier se trouve en dehors du répertoire racine de JupyterLab. êtes-vous sûr de vouloir le modifier?"
+    "Connecting...": [
+        "Connexion en cours..."
+    ],
+    "Copy diagnostics' message": [
+        "Copier le message de diagnostic"
+    ],
+    "Could not rename %1 - consult the language server documentation": [
+        "Impossible de renommer %1 - consultez la documentation du serveur de langue"
+    ],
+    "Diagnostics Panel": [
+        "Panneau Diagnostic"
+    ],
+    "Display the completer themes": [
+        "Afficher les thèmes de complétion"
+    ],
+    "Documentation:": [
+        "Documentation"
     ],
     "Edit anyway": [
         "Modifiez-le quand même"
     ],
-    "Show diagnostics panel": [
-        "Afficher le panneau de diagnostic"
+    "Edit external file?": [
+        "Modifier le fichier externe?"
     ],
-    " (current)": [
-        " (courant)"
+    "Fully connected & initialized (%1 virtual document)": [
+        "Entièrement connecté et initialisé (% 1 document virtuel)"
     ],
-    "Licence: ": [
-        "Licence: "
+    "Fully connected & initialized (%1 virtual documents)": [
+        "Entièrement connecté et initialisé (%1 documents virtuels)"
     ],
-    "Includes dedicated dark mode icons set": [
-        "Comprend un ensemble d'icônes de mode sombre"
+    "Fully connected, but %1/%2 virtual document stuck uninitialized: %3": [
+        "Entièrement connecté, mais %1/%2 document virtuel est bloqué et non initialisé: %3"
     ],
-    "OK": [
-        "OK"
+    "Fully connected, but %1/%2 virtual documents stuck uninitialized: %3": [
+        "Entièrement connecté, mais %1/%2 documents virtuels sont bloqués et non initialisés: %3"
+    ],
+    "Fully initialized": [
+        "Entièrement Initialisé"
     ],
     "Highlight references": [
         "Mettre en surbrillance les références"
     ],
     "Highlight type definition": [
         "Mettre en surbrillance la définition de type"
-    ],
-    "LSP Highlights": [
-        "LSP Surbrillance"
-    ],
-    "LSP Hover tooltip": [
-        "LSP Survoler une info-bulle"
-    ],
-    "No jump targets found": [
-        ""
-    ],
-    "Jump to definition": [
-        "Sauter à la définition"
-    ],
-    "Jump back": [
-        "Revenir en arrière"
-    ],
-    "Syntax highlighting": [
-        "Surbrillance du syntaxe"
-    ],
-    "Diagnostics Panel": [
-        "Panneau Diagnostic"
-    ],
-    "Panel columns": [
-        "Colonnes du panneau"
     ],
     "Ignore diagnostics like this": [
         "Ignorer les diagnostics comme celui-ci"
@@ -205,43 +94,154 @@
     "Ignore diagnostics with \"%1\" message": [
         "Ignorer les diagnostics avec le message \"%1\""
     ],
+    "Includes dedicated dark mode icons set": [
+        "Comprend un ensemble d'icônes de mode sombre"
+    ],
+    "initialized": [
+        "Initialisé"
+    ],
+    "Initialized (additional servers needed)": [
+        "Initialisé (serveurs supplémentaires nécessaires)"
+    ],
+    "Initializing...": [
+        "Initialisation..."
+    ],
+    "Jump back": [
+        "Revenir en arrière"
+    ],
+    "Jump to definition": [
+        "Sauter à la définition"
+    ],
     "Jump to location": [
         "Naviguer vers l'emplacement"
     ],
-    "Successfully copied \"%1\" to clipboard": [
-        "\"%1\" copié avec succès dans le presse-papiers"
+    "Language Servers": [
+        "Serveur de Langue"
     ],
-    "Your browser protects clipboard from write operations; please copy the message manually": [
-        "Votre navigateur protège le presse-papiers des opérations d'écriture; veuillez copier le message manuellement"
+    "Licence: ": [
+        "Licence: "
     ],
-    "Copy diagnostics' message": [
-        "Copier le message de diagnostic"
+    "Line:Ch": [
+        "Ligne:Ch"
+    ],
+    "LSP Code Intelligence": [
+        "LSP Intelligence du Code"
+    ],
+    "LSP Completer Themes": [
+        "LSP Thèmes de la Saisie Semi-Automatique"
     ],
     "LSP Diagnostics": [
         "LSP Diagnostics"
     ],
-    "No issues detected, great job!": [
-        "Aucun problème détecté, bon travail!"
+    "LSP Highlights": [
+        "LSP Surbrillance"
     ],
-    "Virtual Document": [
-        "Document Virtuel"
+    "LSP Hover tooltip": [
+        "LSP Survoler une info-bulle"
+    ],
+    "LSP Rename": [
+        "LSP Renommer"
+    ],
+    "LSP server extension not found": [
+        "Extension de serveur LSP introuvable"
+    ],
+    "LSP servers": [
+        "serveurs LSP"
+    ],
+    "LSP status": [
+        "état du LSP"
     ],
     "Message": [
         "Message"
     ],
-    "Code": [
-        "Code"
+    "Missing": [
+        "Manquant"
+    ],
+    "No issues detected, great job!": [
+        "Aucun problème détecté, bon travail!"
+    ],
+    "No jump targets found": [
+        "Aucune destination trouvée"
+    ],
+    "not connected": [
+        "non connecté"
+    ],
+    "not initialized": [
+        "non initialisé"
+    ],
+    "OK": [
+        "OK"
+    ],
+    "Panel columns": [
+        "Colonnes du panneau"
+    ],
+    "Rename": [
+        "Renommer"
+    ],
+    "Rename failed: %1": [
+        "changement de nom a échoué: %1"
+    ],
+    "Rename symbol": [
+        "Renommer ce symbol"
+    ],
+    "Rename to": [
+        "Renommer à"
+    ],
+    "Renamed %1": [
+        "Renommé %1"
+    ],
+    "Renamed %1 in %2 cell": [
+        "Renommé %1 dans %2 cellule"
+    ],
+    "Renamed %1 in %2 cells": [
+        "Renommé %1 en %2 cellules"
+    ],
+    "Renamed %1 in %2 place": [
+        "Renommé %1 dans %2 endroit"
+    ],
+    "Renamed %1 in %2 places": [
+        "Renommé %1 en %2 endroits"
+    ],
+    "Renaming %1 to %2...": [
+        "Renommer %1 à %2..."
+    ],
+    "Running": [
+        "En cours d'exécution"
+    ],
+    "Server extension missing": [
+        "Extension de serveur manquante"
     ],
     "Severity": [
         "Niveaux de Gravité"
     ],
+    "Show diagnostics panel": [
+        "Afficher le panneau de diagnostic"
+    ],
     "Source": [
         "Source"
     ],
-    "Cell": [
-        "Cellule"
+    "Successfully copied \"%1\" to clipboard": [
+        "\"%1\" copié avec succès dans le presse-papiers"
     ],
-    "Line:Ch": [
-        "Ligne:Ch"
+    "Syntax error(s) prevent rename: %1": [
+        "Erreur(s) de syntaxe empêchent le changement de nom: %1"
+    ],
+    "Syntax highlighting": [
+        "Surbrillance du syntaxe"
+    ],
+    "This file is located outside of the root of the JupyterLab start directory. Do you really wish to edit it?": [
+        "Ce fichier se trouve en dehors du répertoire racine de JupyterLab. êtes-vous sûr de vouloir le modifier?"
+    ],
+    "Virtual Document": [
+        "Document Virtuel"
+    ],
+    "Waiting for documents initialization...": [
+        "En attente de l'initialisation des documents..."
+    ],
+    "Waiting...": [
+        "Chargement en cours..."
+    ],
+    "Your browser protects clipboard from write operations; please copy the message manually": [
+        "Votre navigateur protège le presse-papiers des opérations d'écriture; veuillez copier le message manuellement"
     ]
 }
