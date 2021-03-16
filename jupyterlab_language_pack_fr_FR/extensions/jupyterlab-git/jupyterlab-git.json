@@ -16,63 +16,6 @@
     " Help ": [
         " Aide "
     ],
-    "Cannot open a folder here": [
-        "Impossible d'ouvrir un dossier ici"
-    ],
-    "Add": [
-        "Ajouter"
-    ],
-    "Stage or track the changes to selected file": [
-        "Indexer ou suivre les modifications du fichier sélectionné"
-    ],
-    "Stage or track the changes to selected files": [
-        "Indexer ou suivre les modifications apportées aux fichiers sélectionnés"
-    ],
-    "Stage the changes of selected files": [
-        "Indexer les modifications apportées aux fichiers sélectionnés"
-    ],
-    "Start tracking selected files": [
-        "Commencer à suivre les fichiers sélectionnés"
-    ],
-    "Unstage the changes of selected files": [
-        "Désindexer les modifications apportées aux fichiers sélectionnés"
-    ],
-    "Delete these files": [
-        "Supprimer ces fichiers"
-    ],
-    "Delete Files": [
-        "Supprimer ces Fichiers"
-    ],
-    "Are you sure you want to permanently delete %1? This action cannot be undone.": [
-        "Êtes-vous sûr de vouloir supprimer définitivement %1? cette action n'est pas réversible."
-    ],
-    "Discard recent changes of selected files": [
-        "Annuler les modifications récentes apportées aux fichiers sélectionnés"
-    ],
-    "Are you sure you want to permanently discard changes to %1? This action cannot be undone.": [
-        "Êtes-vous sûr de vouloir supprimer les modifications apportées à %1 de manière définitive? cette action n'est pas réversible."
-    ],
-    "Discard changes for %1 failed.": [
-        "La suppression des modifications pour %1 a échoué."
-    ],
-    "Ignore these files (add to .gitignore)": [
-        "Ignorer ces fichiers (ajouter à .gitignore)"
-    ],
-    "Ignore %1 %2 (add to .gitignore)": [
-        "Ignorer %2 %1 (ajouter à .gitignore)"
-    ],
-    "extensions": [
-        "les extensions"
-    ],
-    "extension": [
-        "l'extension"
-    ],
-    "Ignore these files extension (add to .gitignore)": [
-        "Ignorer ces extensions de fichier (ajouter à .gitignore)"
-    ],
-    "No actions available": [
-        "Aucune action disponible"
-    ],
     "# Deletions": [
         "# Suppressions"
     ],
@@ -109,6 +52,9 @@
     "(missing message)": [
         "(message manquant)"
     ],
+    "Add": [
+        "Ajouter"
+    ],
     "Add a Git remote repository": [
         "Ajouter un dépôt Git distant"
     ],
@@ -130,11 +76,17 @@
     "Are you sure you want to permanently delete": [
         "Êtes-vous sûr de vouloir supprimer définitivement"
     ],
+    "Are you sure you want to permanently delete %1? This action cannot be undone.": [
+        "Êtes-vous sûr de vouloir supprimer définitivement %1? cette action n'est pas réversible."
+    ],
     "Are you sure you want to permanently delete the branch ": [
         "Êtes-vous sûr de vouloir supprimer définitivement la branche "
     ],
     "Are you sure you want to permanently discard changes to ": [
         "Êtes-vous sûr de vouloir supprimer définitivement les modifications apportées à "
+    ],
+    "Are you sure you want to permanently discard changes to %1? This action cannot be undone.": [
+        "Êtes-vous sûr de vouloir supprimer les modifications apportées à %1 de manière définitive? cette action n'est pas réversible."
     ],
     "Are you sure you want to permanently discard changes to all files? This action cannot be undone.": [
         "Êtes-vous sûr de vouloir supprimer les modifications apportées à tous les fichiers de manière définitive? Cette action n'est pas réversible."
@@ -153,6 +105,9 @@
     ],
     "Cancel pull merge conflict": [
         "Annuler le conflit de fusion de pull"
+    ],
+    "Cannot open a folder here": [
+        "Impossible d'ouvrir un dossier ici"
     ],
     "Changed": [
         "Modifié(s)"
@@ -259,6 +214,12 @@
     "Delete File": [
         "Supprimer le Fichier"
     ],
+    "Delete Files": [
+        "Supprimer ces Fichiers"
+    ],
+    "Delete these files": [
+        "Supprimer ces fichiers"
+    ],
     "Delete this branch locally": [
         "Supprimer cette branche localement"
     ],
@@ -322,6 +283,9 @@
     "Discard changes": [
         "Annuler les modifications"
     ],
+    "Discard changes for %1 failed.": [
+        "La suppression des modifications pour %1 a échoué."
+    ],
     "Discard changes introduced *after* this commit (hard reset)": [
         "Annuler les modifications introduites * après * cette validation (hard reset)"
     ],
@@ -330,6 +294,9 @@
     ],
     "Discard recent changes of selected file": [
         "Annuler les modifications récentes du fichier sélectionné"
+    ],
+    "Discard recent changes of selected files": [
+        "Annuler les modifications récentes apportées aux fichiers sélectionnés"
     ],
     "discarding changes...": [
         "supprimer les changements..."
@@ -378,6 +345,12 @@
     ],
     "Error when adding remote repository": [
         "Erreur produite lors de l'ajout d'un dépôt distant"
+    ],
+    "extension": [
+        "l'extension"
+    ],
+    "extensions": [
+        "les extensions"
     ],
     "Fail to get the tags.": [
         "Impossible d'obtenir les étiquettes."
@@ -463,11 +436,20 @@
     "Ignore": [
         "Ignorer"
     ],
+    "Ignore %1 %2 (add to .gitignore)": [
+        "Ignorer %2 %1 (ajouter à .gitignore)"
+    ],
     "Ignore %1 extension (add to .gitignore)": [
         "Ignorer l'extension %1 (ajouter à .gitignore)"
     ],
     "Ignore file extension": [
         "Ignorer cette extension de fichier"
+    ],
+    "Ignore these files (add to .gitignore)": [
+        "Ignorer ces fichiers (ajouter à .gitignore)"
+    ],
+    "Ignore these files extension (add to .gitignore)": [
+        "Ignorer ces extensions de fichier (ajouter à .gitignore)"
     ],
     "Ignore this file (add to .gitignore)": [
         "Ignorer ce fichier (ajouter à .gitignore)"
@@ -501,6 +483,9 @@
     ],
     "New Branch": [
         "Nouvelle Branche"
+    ],
+    "No actions available": [
+        "Aucune action disponible"
     ],
     "No remote repository defined": [
         "Aucun dépôt distant défini"
@@ -658,8 +643,17 @@
     "Stage all changes": [
         "Indexer toutes modifications"
     ],
+    "Stage or track the changes to selected file": [
+        "Indexer ou suivre les modifications du fichier sélectionné"
+    ],
+    "Stage or track the changes to selected files": [
+        "Indexer ou suivre les modifications apportées aux fichiers sélectionnés"
+    ],
     "Stage the changes of selected file": [
         "Indexer les modifications du fichier sélectionné"
+    ],
+    "Stage the changes of selected files": [
+        "Indexer les modifications apportées aux fichiers sélectionnés"
     ],
     "Stage this change": [
         "Indexer ce changement"
@@ -672,6 +666,9 @@
     ],
     "Start tracking selected file": [
         "Commencer à suivre le fichier sélectionné"
+    ],
+    "Start tracking selected files": [
+        "Commencer à suivre les fichiers sélectionnés"
     ],
     "Submit changes": [
         "Soumettre vos changements"
@@ -774,6 +771,9 @@
     ],
     "Unstage the changes of selected file": [
         "Désindexer les modifications du fichier sélectionné"
+    ],
+    "Unstage the changes of selected files": [
+        "Désindexer les modifications apportées aux fichiers sélectionnés"
     ],
     "Unstage this change": [
         "Désindexer ce changement"
