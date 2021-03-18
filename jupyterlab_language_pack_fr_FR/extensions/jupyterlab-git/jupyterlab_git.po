@@ -618,13 +618,11 @@ msgstr "inactif"
 msgid "Ignore"
 msgstr "Ignorer"
 
-#: /src/commandsAndMenu.tsx:727
-msgid "Ignore %1 extension (add to .gitignore)"
-msgstr "Ignorer l'extension %1 (ajouter à .gitignore)"
-
 #: /src/commandsAndMenu.tsx:722
-msgid "Ignore %1 extensions (add to .gitignore)"
-msgstr "Ignorer les extensions %1 (ajouter à .gitignore)"
+msgid "Ignore %1 extension (add to .gitignore)"
+msgid_plural "Ignore %1 extensions (add to .gitignore)"
+msgstr[0] "Ignorer l'extension %1 (ajouter à .gitignore)"
+msgstr[1] "Ignorer les extensions %1 (ajouter à .gitignore)"
        
 #: /src/commandsAndMenu.tsx:737
 msgid "Ignore file extension"
