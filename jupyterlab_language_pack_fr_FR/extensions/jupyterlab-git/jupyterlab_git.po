@@ -34,7 +34,7 @@ msgstr "Si vrai, lors de la récupération et de l'intégration des changements 
 
 #: /schema/plugin.json:22
 msgid "Disable branch with changes"
-msgstr "Désactiver la branche avec des changements"
+msgstr "Désactiver la branche avec les changements"
 
 #: /schema/plugin.json:23
 msgctxt "schema"
@@ -176,11 +176,18 @@ msgstr "Êtes-vous sûr de vouloir supprimer les modifications apportées à tou
 msgid "Branch created."
 msgstr "La branche a été créée."
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:308
+#: /src/components/Toolbar.tsx:316
 msgid "Branches"
 msgstr "Branches"
 
 #: /src/commandsAndMenu.tsx:184
+#: /src/commandsAndMenu.tsx:297
+#: /src/commandsAndMenu.tsx:618
+#: /src/commandsAndMenu.tsx:661
+#: /src/components/BranchMenu.tsx:344
+#: /src/components/FileList.tsx:183
+#: /src/components/FileList.tsx:208
+#: /src/components/NewBranchDialog.tsx:209
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -192,7 +199,9 @@ msgstr "Annuler vos changements"
 msgid "Cancel pull merge conflict"
 msgstr "Annuler le conflit de fusion de pull"
 
-#: /src/tokens.ts:1
+#: /src/components/SinglePastCommitInfo.tsx:198
+#: /src/components/FileList.tsx:519
+#: /src/components/FileList.tsx:729
 msgid "Changed"
 msgstr "Modifié(s)"
 
@@ -217,6 +226,7 @@ msgid "Checkout to tag: %1"
 msgstr "Extrayez l'étiquette: %1"
 
 #: /src/components/TagMenu.tsx:197
+#: /src/components/BranchMenu.tsx:201
 msgid "Clear the current filter"
 msgstr "Effacer le filtre actuel"
 
@@ -224,11 +234,12 @@ msgstr "Effacer le filtre actuel"
 msgid "CLONE"
 msgstr "CLONER"
 
-#: /src/tokens.ts:178
+#: /src/commandsAndMenu.tsx:293
 msgid "Clone a repo"
 msgstr "Cloner un Dépôt"
 
 #: /src/commandsAndMenu.tsx:288
+#: /src/components/GitPanel.tsx:458
 msgid "Clone a Repository"
 msgstr "Cloner un Dépôt"
 
@@ -245,6 +256,7 @@ msgid "Cloning..."
 msgstr "Clonage en cours..."
 
 #: /src/components/ResetRevertDialog.tsx:132
+#: src/components/NewBranchDialog.tsx:157
 msgid "Close this dialog"
 msgstr "Fermer cette boîte de dialogue"
 
@@ -252,7 +264,7 @@ msgstr "Fermer cette boîte de dialogue"
 msgid "Close this dialog without creating a new branch"
 msgstr "Fermez cette boîte de dialogue sans créer de nouvelle branche"
 
-#: /src/tokens.ts:195
+#: /src/components/CommitBox:94
 msgid "Commit"
 msgstr "Commit"
 
@@ -277,6 +289,7 @@ msgid "Create a Branch"
 msgstr "Créer une Branche"
 
 #: /src/components/BranchMenu.tsx:211
+#: /src/components/NewBranchDialog.tsx:215
 msgid "Create a new branch"
 msgstr "Créer une nouvelle branche"
 
@@ -304,23 +317,25 @@ msgstr "La création d'une nouvelle branche est désactivée"
 msgid "Creating branch..."
 msgstr "Creation de la branche..."
 
-#: /src/tokens.ts:15
+#: /src/components/NewBranchDialog:304
 msgid "current"
 msgstr "actuel"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:271
+#: /src/components/Toolbar.tsx:278
 msgid "Current Branch"
 msgstr "Branche Actuelle"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:240
+#: /src/components/Toolbar.tsx:245
 msgid "Current Repository"
 msgstr "Dépôt Actuel"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:236
+#: /src/components/Toolbar.tsx:237
 msgid "Current repository: %1"
 msgstr "Dépôt actuel: %1"
 
-#: /src/tokens.ts:219
+#: /src/commandsAndMenu.tsx:598
+#: /src/commandsAndMenu.tsx:619
+#: /src/components/BranchMenu.tsx:345
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -352,7 +367,7 @@ msgstr "La suppression de %1 a échoué."
 msgid "Description (optional)"
 msgstr "Description (optionnelle)"
 
-#: /src/tokens.ts:814
+#: /src/components/Alert.tsx:120
 msgid "Detailed message"
 msgstr "Message détaillé"
 
@@ -360,7 +375,7 @@ msgstr "Message détaillé"
 msgid "Details"
 msgstr "Détails"
 
-#: /src/tokens.ts:359
+#: /src/commandsAndMenu.tsx:450
 msgid "Diff"
 msgstr "Diff"
 
@@ -388,15 +403,20 @@ msgstr "Désactivé: aucun résumé du message de validation"
 msgid "Disabled: No files are staged for commit"
 msgstr "Désactivé: aucun fichier n'est indexé pour faire un commit"
 
-#: /src/tokens.ts:840
+#: /src/commandsAndMenu.tsx:640
+#: /src/commandsAndMenu.tsx:662
+#: /src/components/FileList.tsx:184
+#: /src/components/FileList.tsx:209
 msgid "Discard"
 msgstr "Abandonner"
 
 #: /src/components/FileList.tsx:506
+#: /src/components/FileList.tsx:725
 msgid "Discard All Changes"
 msgstr "Supprimer Toutes les Modifications"
 
 #: /src/components/FileList.tsx:178
+#: /src/components/FileList.tsx:203
 msgid "Discard all changes"
 msgstr "Supprimer toutes les modifications"
 
@@ -409,6 +429,9 @@ msgid "Discard all unstaged changes failed."
 msgstr "Échec de la suppression de toutes les modifications non-indexées."
 
 #: /src/commandsAndMenu.tsx:650
+#: /src/components/FileList.tsx:458
+#: /src/components/FileList.tsx:656
+#: /src/components/FileList.tsx:682
 msgid "Discard changes"
 msgstr "Annuler les modifications"
 
@@ -425,10 +448,15 @@ msgid "discarding changes..."
 msgstr "supprimer les changements..."
 
 #: /src/components/Alert.tsx:106
+#: /src/components/TagMenu.tsx:65
+#: /src/components/BranchMenu.tsx:69
 msgid "Dismiss"
 msgstr "Ignorer"
 
 #: /src/index.ts:124
+#: /src/commandsAndMenu.tsx:630
+#: /src/commandsAndMenu.tsx:685
+#: /src/components/Alert.tsx:123
 msgid "DISMISS"
 msgstr "IGNORER"
 
@@ -460,7 +488,8 @@ msgstr "Entrez une description du message de validation"
 msgid "Enter a commit message summary (a single line, preferably less than 50 characters)"
 msgstr "Entrez un résumé du message de validation (une seule ligne, préférablement moins de 50 caractères)"
 
-#: /src/commandsAndMenu.tsx:1050
+#: /src/commandsAndMenu.tsx:1057
+#: /src/widgets/CredentialsBox.tsx:14
 msgid "Enter credentials for remote repository"
 msgstr "Entrez vos informations d’authentification pour le dépôt distant"
 
@@ -468,7 +497,7 @@ msgstr "Entrez vos informations d’authentification pour le dépôt distant"
 msgid "Enter the Clone URI of the repository"
 msgstr "Entrez l'URI du dépôt à cloner"
 
-#: /src/tokens.ts:82
+#: /src/components/Alert.tsx:105
 msgid "Error"
 msgstr "Erreur"
 
@@ -516,7 +545,7 @@ msgstr "Tirage a échoué"
 msgid "Failed to push"
 msgstr "Poussage a échoué"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:404
+#: /src/components/Toolbar.tsx:414
 msgid "Failed to refresh."
 msgstr "L'actualisation a échoué."
 
@@ -532,11 +561,15 @@ msgstr "Échoué à définir votre identité. "
 msgid "Failed to switch branch."
 msgstr "Échec du changement de branche."
 
-#: /src/components/TagMenu.tsx:171
+#: /src/components/TagMenu.tsx:191
+#: /src/components/BranchMenu.tsx:195
+#: /src/components/NewBranchDialog.tsx:184
 msgid "Filter"
 msgstr "Filtrer"
 
 #: /src/components/TagMenu.tsx:192
+#: /src/components/BranchMenu.tsx:196
+#: /src/components/NewBranchDialog.tsx:185
 msgid "Filter branch menu"
 msgstr "Filtrer le menu de la branche"
 
@@ -572,7 +605,7 @@ msgstr "L'extension de serveur Git n'est pas disponible. Veuillez vous assurer q
 msgid "Go to Git user interface"
 msgstr "Aller à l'interface utilisateur de Git"
 
-#: /src/tokens.ts:144
+#: /src/components/GitPanel:356
 msgid "History"
 msgstr "L'historique"
 
@@ -580,7 +613,8 @@ msgstr "L'historique"
 msgid "idle"
 msgstr "inactif"
 
-#: /src/tokens.ts:283
+#: /src/commandsAndMenu.tsx:751
+#: /src/commandsAndMenu.tsx:754
 msgid "Ignore"
 msgstr "Ignorer"
 
@@ -597,6 +631,7 @@ msgid "Ignore file extension"
 msgstr "Ignorer cette extension de fichier"
 
 #: /src/commandsAndMenu.tsx:696
+#: /src/commandsAndMenu.tsx:700
 msgid "Ignore this file (add to .gitignore)"
 msgstr "Ignorer ce fichier (ajouter à .gitignore)"
 
@@ -613,6 +648,8 @@ msgid "Incorrect username or password."
 msgstr "Nom d’utilisateur ou mot de passe incorrect."
 
 #: /src/commandsAndMenu.tsx:174
+#: /src/commandsAndMenu.tsx:181
+#: /src/components/GitPanel.tsx:449
 msgid "Initialize a Repository"
 msgstr "Initialiser un Dépôt"
 
@@ -624,19 +661,19 @@ msgstr "initialisation du dépôt..."
 msgid "Initializing..."
 msgstr "Initialisation..."
 
-#: /src/tokens.ts:81
+#: /src/components/GitPanel.tsx:430
 msgid "is not"
 msgstr "n'est pas"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:266
+#: /src/components/Toolbar.tsx:272
 msgid "Manage branches and tags"
 msgstr "Gérer les branches et étiquettes"
 
-#: /src/tokens.ts:658
+#: /src/components/FileItem.tsx:19
 msgid "Modified"
 msgstr "Modifié"
 
-#: /src/tokens.ts:221
+#: /src/components/NewBranchDialog.tsx:167
 msgid "Name"
 msgstr "Nom"
 
@@ -644,7 +681,8 @@ msgstr "Nom"
 msgid "New Branch"
 msgstr "Nouvelle Branche"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:185
+#: /src/components/Toolbar.tsx:180
+#: /src/components/Toolbar.tsx:208
 msgid "No remote repository defined"
 msgstr "Aucun dépôt distant défini"
 
@@ -652,11 +690,12 @@ msgstr "Aucun dépôt distant défini"
 msgid "Not in a Git repository. Unable to add a remote."
 msgstr "Pas dans un dépôt Git. Impossible d'ajouter un dépôt distant."
 
-#: /src/tokens.ts:842
+#: /src/commandsAndMenu.tsx:417
 msgid "Open"
 msgstr "Ouvrir"
 
 #: /src/commandsAndMenu.tsx:337
+#: /src/commandsAndMenu.tsx:338
 msgid "Open .gitignore"
 msgstr "Ouvrir .gitignore"
 
@@ -681,6 +720,11 @@ msgid "Open the FileBrowser"
 msgstr "Ouvrir le FileBrowser"
 
 #: /src/components/FileList.tsx:364
+#: /src/components/FileList.tsx:451
+#: /src/components/FileList.tsx:550
+#: /src/components/FileList.tsx:636
+#: /src/components/FileList.tsx:649
+#: /src/components/FileList.tsx:675
 msgid "Open this file"
 msgstr "Ouvrir ce fichier"
 
@@ -692,7 +736,7 @@ msgstr "Veuillez valider, remiser ou annuler (commit, stash, or discard) vos mod
 msgid "Please commit, stash, or discard your changes before you switch branches."
 msgstr "Veuillez valider, remiser ou annuler vos modifications avant de changer de branche."
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:209
+#: /src/components/Toolbar.tsx:207
 msgid "Publish branch"
 msgstr "Publier la branche"
 
@@ -700,7 +744,7 @@ msgstr "Publier la branche"
 msgid "Pull from Remote"
 msgstr "Tirer Depuis un Dépôt Distant"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:181
+#: /src/components/Toolbar.tsx:173
 msgid "Pull latest changes"
 msgstr "Tirer les dernières modifications"
 
@@ -720,7 +764,7 @@ msgstr "Tirage en cours..."
 msgid "Push code to remote repository"
 msgstr "Pousser le code vers le dépôt distant"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:205
+#: /src/components/Toolbar.tsx:200
 msgid "Push committed changes"
 msgstr "Pousser les modifications commits"
 
@@ -736,7 +780,7 @@ msgstr "pousser les modifications..."
 msgid "Pushing..."
 msgstr "Poussage en cours..."
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:219
+#: /src/components/Toolbar.tsx:218
 msgid "Refresh the repository to detect local and remote changes"
 msgstr "Actualisez le dépôt pour détecter les modifications locales et distantes"
 
@@ -744,7 +788,7 @@ msgstr "Actualisez le dépôt pour détecter les modifications locales et distan
 msgid "refreshing..."
 msgstr "rafraîchissement..."
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:391
+#: /src/components/Toolbar.tsx:401
 msgid "Refreshing..."
 msgstr "rafraîchissement..."
 
@@ -796,7 +840,7 @@ msgstr "Afficher"
 msgid "Simple staging"
 msgstr "Indexation Simple"
 
-#: /src/tokens.ts:844
+#: /src/commandsAndMenu.tsx:538
 msgid "Stage"
 msgstr "Indexer"
 
@@ -844,7 +888,7 @@ msgstr "Tirage a réussi"
 msgid "Successfully pushed"
 msgstr "Poussage a réussi"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:398
+#: /src/components/Toolbar.tsx:408
 msgid "Successfully refreshed."
 msgstr "L'actualisation a réussi."
 
@@ -876,7 +920,7 @@ msgstr "Le changement de branche est désactivé"
 msgid "Tag checkout."
 msgstr "Extraction d'étiquette."
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:318
+#: /src/components/Toolbar.tsx:326
 msgid "Tags"
 msgstr "Étiquettes"
 
@@ -916,7 +960,7 @@ msgstr "Ce fichier a été supprimé!"
 msgid "This reverts commit %1"
 msgstr "Cela inverse le commit %1"
 
-#: /src/tokens.ts:586
+#: /src/commandsAndMenu.tsx:553
 msgid "Track"
 msgstr "Suivre"
 
@@ -936,7 +980,7 @@ msgstr "Impossible d'extraire l'étiquette"
 msgid "Unable to switch branch"
 msgstr "Impossible de changer de branche"
 
-#: /src/tokens.ts:96
+#: /src/commandsAndMenu.ts:568
 msgid "Unstage"
 msgstr "Désindexer"
 
@@ -952,7 +996,7 @@ msgstr "Désindexer les modifications du fichier sélectionné"
 msgid "Unstage this change"
 msgstr "Désindexer ce changement"
 
-#: /src/tokens.ts:107
+#: /src/components/FileItem.tsx:25
 msgid "Untracked"
 msgstr "Non suivi(s)"
 
@@ -960,7 +1004,7 @@ msgstr "Non suivi(s)"
 msgid "Updated"
 msgstr "Mise à jour"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:307
+#: /src/components/Toolbar.tsx:315
 msgid "View branches"
 msgstr "Voir les branches"
 
@@ -976,7 +1020,7 @@ msgstr "Afficher l'historique des commits"
 msgid "View file changes"
 msgstr "Afficher les modifications apportées aux fichiers"
 
-#: /src/components/.ipynb_checkpoints/Toolbar-checkpoint.tsx:317
+#: /src/components/Toolbars.tsx:325
 msgid "View tags"
 msgstr "Voir les étiquettes"
 
@@ -998,5 +1042,5 @@ msgstr "Vous n'êtes pas actuellement dans"
 
 #: /src/components/TagMenu.tsx:52
 msgid "Your changes to the following files would be overwritten by switching:"
-msgstr "Vos modifications apportées aux fichiers suivants seraient écrasées :"
+msgstr "Vos modifications apportées aux fichiers suivants seraient écrasées:"
 
