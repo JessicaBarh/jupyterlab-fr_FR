@@ -346,6 +346,12 @@
     "Error when adding remote repository": [
         "Erreur produite lors de l'ajout d'un dépôt distant"
     ],
+    "extension": [
+        "l'extension"
+    ],
+    "extensions": [
+        "les extensions"
+    ],
     "Fail to get the tags.": [
         "Impossible d'obtenir les étiquettes."
     ],
@@ -763,6 +769,9 @@
     ],
     "Unstage the changes of selected file": [
         "Désindexer les modifications apportées au fichier sélectionné"
+    ],
+    "Unstage the changes of selected files": [
+        "Désindexer les modifications apportées aux fichiers sélectionnés"
     ],
     "Unstage the changes of selected files": [
         "Désindexer les modifications apportées aux fichiers sélectionnés"
