@@ -129,6 +129,9 @@
     "Are you sure you want to close \"%1\"?": [
         "Êtes-vous sûr de vouloir fermer \"%1\"?"
     ],
+    "Are you sure you want to close all open tabs?": [
+        "Êtes-vous sûr de vouloir fermer tous les onglets ouverts?"
+    ],
     "Are you sure you want to delete %1": [
         "Êtes-vous sûr de vouloir supprimer %1"
     ],
@@ -288,6 +291,12 @@
     ],
     "Click on a function to see documentation.": [
         "Cliquez sur une fonction pour voir la documentation."
+    ],
+    "Close": [
+        "Fermer"
+    ],
+    "Close All": [
+        "Tout Fermer"
     ],
     "Close All Other Tabs": [
         "Fermer tous les autres onglets"
@@ -2162,7 +2171,7 @@
         "ÉTEINDRE"
     ],
     "Shut Down All": [
-        "Tout arrêter"
+        "Tout Arrêter"
     ],
     "Shut down all kernels?": [
         "Arrêter tous les noyaux?"
